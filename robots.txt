@@ -1,0 +1,5 @@
+User-agent: *
+
+Allow: /
+
+Sitemap: https://lavankoushik35-art.github.io/KKFISHCLUB/sitemap.xml
