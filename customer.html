@@ -3,125 +3,176 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <title>KK FISH CLUB</title>
 
-<style>
-body{
-margin:0;
-font-family:Arial,sans-serif;
-background:#001f3f;
-color:white;
-}
-
-header{
-background:#00bfff;
-padding:15px;
-text-align:center;
-font-size:28px;
-font-weight:bold;
-}
-
-.container{
-padding:20px;
-}
-
-.card{
-background:rgba(255,255,255,.08);
-padding:15px;
-border-radius:12px;
-margin-bottom:20px;
-box-shadow:0 0 10px cyan;
-}
-
-h2{
-color:#00ffff;
-}
-
-ul{
-padding-left:20px;
-}
-
-li{
-margin:8px 0;
-}
-
-button{
-width:100%;
-padding:12px;
-background:#00bfff;
-color:white;
-border:none;
-border-radius:8px;
-font-size:16px;
-margin-top:10px;
-cursor:pointer;
-}
-
-button:hover{
-background:#0099cc;
-}
-</style>
+<link rel="stylesheet" href="css/style.css">
 
 </head>
 
 <body>
 
+<nav class="navbar">
+
+<h2>🐟 KK FISH CLUB</h2>
+
+<a href="customer.html">Home</a>
+<a href="offers.html">Offers</a>
+<a href="about.html">About</a>
+<a href="contact.html">Contact</a>
+<a href="admin-login.html">Admin</a>
+
+</nav>
+
 <header>
+
 🐟 KK FISH CLUB 🐟
+
 </header>
 
 <div class="container">
 
 <div class="card">
+
 <h2>🐠 Aquarium Sizes</h2>
+
 <ul>
+
 <li>1.5 Feet</li>
+
 <li>2 Feet</li>
+
 <li>3 Feet</li>
+
 </ul>
+
 </div>
 
 <div class="card">
+
 <h2>🐟 Available Fishes</h2>
-<ul>
-<li>Arowana</li>
-<li>Koi</li>
-<li>Alligator Gar</li>
-<li>Flowerhorn</li>
-<li>Small Oscars</li>
-<li>Big Oscars</li>
-<li>Betta Fishes</li>
-<li>Cichlids</li>
-<li>Knife Fish</li>
-<li>Mollies</li>
-<li>Cleaning Fish</li>
-<li>Sharks</li>
-</ul>
+
+<div class="fish-grid">
+
+<div class="fish-card">
+
+<img src="images/arowana.jpg" alt="Arowana">
+
+<h3>Arowana</h3>
+
+<p>₹15,000+</p>
+
+<button>Buy Now</button>
+
+</div>
+
+<div class="fish-card">
+
+<img src="images/koi.jpg" alt="Koi">
+
+<h3>Koi</h3>
+
+<p>₹800+</p>
+
+<button>Buy Now</button>
+
+</div>
+
+<div class="fish-card">
+
+<img src="images/alligator-gar.jpg" alt="Alligator Gar">
+
+<h3>Alligator Gar</h3>
+
+<p>₹2,500+</p>
+
+<button>Buy Now</button>
+
+</div>
+
+<div class="fish-card">
+
+<img src="images/flowerhorn.jpg" alt="Flowerhorn">
+
+<h3>Flowerhorn</h3>
+
+<p>₹2,000+</p>
+
+<button>Buy Now</button>
+
+</div>
+
+<div class="fish-card">
+
+<img src="images/oscar.jpg" alt="Oscar">
+
+<h3>Oscar</h3>
+
+<p>₹600+</p>
+
+<button>Buy Now</button>
+
+</div>
+
+<div class="fish-card">
+
+<img src="images/betta.jpg" alt="Betta">
+
+<h3>Betta</h3>
+
+<p>₹300+</p>
+
+<button>Buy Now</button>
+
+</div>
+
+</div>
+
 </div>
 
 <div class="card">
-<h2>🎉 Today's Offers</h2>
+
+<h2>🎁 Today's Offers</h2>
+
 <ul>
-<li>Buy 2 Fish Get 10% OFF</li>
+
+<li>Buy 2 Fish - Get 10% OFF</li>
+
 <li>Free Fish Food on Selected Orders</li>
+
 <li>Weekend Special Discounts</li>
+
 </ul>
+
 </div>
 
 <div class="card">
-<h2>🎁 Combo Offers</h2>
+
+<h2>🎉 Combo Offers</h2>
+
 <ul>
+
 <li>2 Feet Aquarium + Filter + Fish</li>
+
 <li>3 Feet Aquarium + Accessories + Fish</li>
+
 <li>Premium Arowana Combo</li>
+
 </ul>
-</div>
-
-<button onclick="location.href='admin-login.html'">
-Admin Login
-</button>
 
 </div>
+
+</div>
+
+<a class="whatsapp"
+href="https://wa.me/919381687402?text=Hi%20KK%20FISH%20CLUB,%20I%20want%20to%20buy%20fish."
+target="_blank">
+
+💬 WhatsApp
+
+</a>
+
+<script src="js/script.js"></script>
 
 </body>
 </html>
