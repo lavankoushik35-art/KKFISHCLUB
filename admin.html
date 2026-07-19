@@ -1,1 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Admin Panel</title>
 
+<style>
+body{
+margin:0;
+font-family:Arial,sans-serif;
+background:#001f3f;
+color:white;
+}
+
+header{
+background:#00bfff;
+padding:15px;
+text-align:center;
+font-size:28px;
+font-weight:bold;
+}
+
+.container{
+padding:20px;
+}
+
+.card{
+background:rgba(255,255,255,.08);
+padding:20px;
+margin-bottom:20px;
+border-radius:12px;
+box-shadow:0 0 10px cyan;
+}
+
+input{
+width:100%;
+padding:10px;
+margin:10px 0;
+border:none;
+border-radius:8px;
+box-sizing:border-box;
+}
+
+button{
+width:100%;
+padding:12px;
+margin-top:10px;
+background:#00bfff;
+color:white;
+border:none;
+border-radius:8px;
+font-size:16px;
+cursor:pointer;
+}
+
+button:hover{
+background:#0099cc;
+}
+</style>
+
+</head>
+<body>
+
+<header>🐟 KK FISH CLUB ADMIN</header>
+
+<div class="container">
+
+<div class="card">
+<h2>➕ Add New Fish</h2>
+<input type="text" placeholder="Fish Name">
+<button>Add Fish</button>
+</div>
+
+<div class="card">
+<h2>✏️ Edit Fish</h2>
+<input type="text" placeholder="Fish Name">
+<button>Edit Fish</button>
+</div>
+
+<div class="card">
+<h2>❌ Delete Fish</h2>
+<input type="text" placeholder="Fish Name">
+<button>Delete Fish</button>
+</div>
+
+<div class="card">
+<h2>🏷️ Add Offer</h2>
+<input type="text" placeholder="Offer Details">
+<button>Add Offer</button>
+</div>
+
+<div class="card">
+<h2>🎁 Add Combo Offer</h2>
+<input type="text" placeholder="Combo Offer Details">
+<button>Add Combo Offer</button>
+</div>
+
+</div>
+
+</body>
+</html>
