@@ -3,33 +3,28 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Admin Panel</title>
+<title>KK FISH CLUB - Admin Panel</title>
+
+<link rel="stylesheet" href="style.css">
 
 <style>
 body{
-margin:0;
 font-family:Arial,sans-serif;
 background:#001f3f;
 color:white;
-}
-
-header{
-background:#00bfff;
-padding:15px;
-text-align:center;
-font-size:28px;
-font-weight:bold;
+padding:20px;
 }
 
 .container{
-padding:20px;
+max-width:700px;
+margin:auto;
 }
 
 .card{
-background:rgba(255,255,255,.08);
+background:#012b52;
 padding:20px;
 margin-bottom:20px;
-border-radius:12px;
+border-radius:10px;
 box-shadow:0 0 10px cyan;
 }
 
@@ -38,75 +33,77 @@ width:100%;
 padding:10px;
 margin:10px 0;
 border:none;
-border-radius:8px;
-box-sizing:border-box;
+border-radius:5px;
 }
 
 button{
-width:100%;
-padding:12px;
-margin-top:10px;
+padding:10px 20px;
 background:#00bfff;
 color:white;
 border:none;
-border-radius:8px;
-font-size:16px;
+border-radius:5px;
 cursor:pointer;
+margin:5px;
 }
 
 button:hover{
-background:#0099cc;
+background:#0088cc;
 }
 </style>
 
 </head>
-<body>
 
-<header>🐟 KK FISH CLUB ADMIN</header>
+<body>
 
 <div class="container">
 
+<h1 align="center">🐟 KK FISH CLUB - Admin Panel</h1>
+
 <div class="card">
-<h2>➕ Add New Fish</h2>
+<h2>Add New Fish</h2>
+
 <input type="text" placeholder="Fish Name">
+
+<input type="text" placeholder="Price">
+
 <button>Add Fish</button>
 </div>
 
 <div class="card">
-<h2>✏️ Edit Fish</h2>
+<h2>Edit Fish</h2>
+
 <input type="text" placeholder="Fish Name">
+
 <button>Edit Fish</button>
 </div>
 
 <div class="card">
-<h2>❌ Delete Fish</h2>
+<h2>Delete Fish</h2>
+
 <input type="text" placeholder="Fish Name">
+
 <button>Delete Fish</button>
 </div>
 
 <div class="card">
-<h2>🏷️ Add Offer</h2>
-<input type="text" placeholder="Offer Details">
+<h2>Add Offer</h2>
+
+<input type="text" placeholder="Offer Name">
+
 <button>Add Offer</button>
 </div>
 
 <div class="card">
-<h2>🎁 Add Combo Offer</h2>
-<input type="text" placeholder="Combo Offer Details">
-<button>Add Combo Offer</button>
+<h2>Add Combo Offer</h2>
+
+<input type="text" placeholder="Combo Offer">
+
+<button>Add Combo</button>
 </div>
 
 </div>
 
-</body>
-</html>
-...
-<footer class="footer">
-  <h3>🐟 KK FISH CLUB</h3>
-  <p>Godavarikhani, Telangana</p>
-  <p>📞 9381687402</p>
-  <p>© 2026 KK FISH CLUB</p>
-</footer>
+<script src="script.js"></script>
 
 </body>
 </html>
